@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/Simple_Cal_FirstNum"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="41dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/Simple_Calc_SecondNum"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/Simple_Cal_FirstNum"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:onClick="dosomethingAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/btnAdd"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="76dp"
+        android:layout_below="@+id/Simple_Calc_SecondNum" />
+
+    <Button
+        android:onClick="dosomethingSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:id="@+id/btnSub"
+        android:layout_alignTop="@+id/btnAdd"
+        android:layout_alignLeft="@+id/btnRes"
+        android:layout_alignStart="@+id/btnRes" />
+
+    <Button
+        android:onClick="dosomethingMul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:id="@+id/btnMul"
+        android:layout_below="@+id/btnAdd"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="55dp" />
+
+    <Button
+        android:onClick="dosomethingDiv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:id="@+id/btnDiv"
+        android:layout_alignTop="@+id/btnMul"
+        android:layout_alignRight="@+id/btnSub"
+        android:layout_alignEnd="@+id/btnSub" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Result"
+        android:id="@+id/btnRes"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/Simple_Calc_SecondNum"
+        android:layout_alignEnd="@+id/Simple_Calc_SecondNum"
+        android:layout_marginBottom="38dp" />
+</RelativeLayout>

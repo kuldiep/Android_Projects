@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kuldiep.myapplication.Activity_Navigator">
+
+    <Button
+        android:onClick="Navigate"
+        android:id="@+id/btnCalc"
+
+        android:text="Calc"
+        android:textColor="#0F040F"
+        android:textSize="30sp"
+
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#994DA8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:onClick="Navigate"
+        android:id="@+id/btnGreet"
+
+        android:text="Greet"
+        android:textColor="#0F040F"
+        android:textSize="30sp"
+
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#994DA8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_below="@+id/btnCalc"
+        android:layout_alignLeft="@+id/btnRegister"
+        android:layout_alignStart="@+id/btnRegister"
+        android:layout_marginTop="46dp" />
+    <Button
+        android:onClick="Navigate"
+        android:id="@+id/btnRegister"
+
+        android:text="Register"
+        android:textColor="#0F040F"
+        android:textSize="30sp"
+
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#994DA8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/btnCalc"
+        android:layout_alignStart="@+id/btnCalc" />
+
+    <Button
+        android:onClick="Navigate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Google"
+        android:id="@+id/btnGoogle"
+        android:layout_below="@+id/btnRegister"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:onClick="Navigate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Felight"
+        android:id="@+id/btnFelight"
+        android:layout_below="@+id/btnGoogle"
+        android:layout_alignLeft="@+id/btnGoogle"
+        android:layout_alignStart="@+id/btnGoogle" />
+
+    <Button
+        android:onClick="Navigate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WhatsApp"
+        android:id="@+id/btnWhatsApp"
+        android:layout_below="@+id/btnFelight"
+        android:layout_alignLeft="@+id/btnFelight"
+        android:layout_alignStart="@+id/btnFelight" />
+
+    <Button
+        android:onClick="Navigate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Camera"
+        android:id="@+id/btnCamera"
+        android:layout_below="@+id/btnWhatsApp"
+        android:layout_alignLeft="@+id/btnWhatsApp"
+        android:layout_alignStart="@+id/btnWhatsApp" />
+
+    <Button
+        android:onClick="Navigate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Music"
+        android:id="@+id/btnMusic"
+        android:layout_below="@+id/btnGoogle"
+        android:layout_toLeftOf="@+id/btnRegister"
+        android:layout_toStartOf="@+id/btnRegister" />
+
+    <Button
+        android:onClick="Navigate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dialer"
+        android:id="@+id/btnDialer"
+        android:layout_above="@+id/btnWhatsApp"
+        android:layout_toRightOf="@+id/btnWhatsApp"
+        android:layout_toEndOf="@+id/btnWhatsApp" />
+
+    <Button
+        android:onClick="Navigate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:id="@+id/btnCall"
+        android:layout_below="@+id/btnMusic"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:onClick="Navigate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Browser"
+        android:id="@+id/btnBrowser"
+        android:layout_alignBottom="@+id/btnCamera"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name :"
+        android:id="@+id/tvName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"/>
+
+    <EditText
+        android:hint="Enter Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etPerson_Name"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tvName"
+        android:layout_toEndOf="@+id/tvName"
+        android:layout_marginLeft="55dp"
+        android:layout_marginStart="55dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail :"
+        android:id="@+id/tvEmail"
+        android:layout_below="@+id/etPerson_Name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="47dp"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:hint="Enter E-mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/etEmail"
+        android:layout_alignBottom="@+id/tvEmail"
+        android:layout_alignLeft="@+id/etPerson_Name"
+        android:layout_alignStart="@+id/etPerson_Name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password :"
+        android:id="@+id/tvPassword"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/tvEmail"
+        android:layout_alignLeft="@+id/tvEmail"
+        android:layout_alignStart="@+id/tvEmail" />
+
+    <EditText
+
+        android:hint="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:ems="10"
+        android:id="@+id/etPass"
+        android:layout_alignBottom="@+id/tvPassword"
+        android:layout_alignLeft="@+id/etEmail"
+        android:layout_alignStart="@+id/etEmail" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Re-Enter Pass :"
+        android:id="@+id/textView2"
+        android:layout_marginTop="52dp"
+        android:layout_below="@+id/tvPassword"
+        android:layout_alignLeft="@+id/tvPassword"
+        android:layout_alignStart="@+id/tvPassword" />
+
+    <EditText
+        android:hint="Re-EnterPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:ems="10"
+        android:id="@+id/etRePass"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/etPass"
+        android:layout_alignStart="@+id/etPass" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DOB :"
+        android:id="@+id/tvDOB"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="50dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/etDOB"
+        android:layout_alignBottom="@+id/tvDOB"
+        android:layout_alignLeft="@+id/etRePass"
+        android:layout_alignStart="@+id/etRePass" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender :"
+        android:id="@+id/tvGender"
+        android:layout_below="@+id/tvDOB"
+        android:layout_alignLeft="@+id/tvDOB"
+        android:layout_alignStart="@+id/tvDOB"
+        android:layout_marginTop="41dp" />
+
+    <RadioGroup
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvGender"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/radioGroup">
+
+    </RadioGroup>
+
+    <Button
+        android:onClick="Validate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/btnSubmit"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/radioGroup"
+        android:layout_toLeftOf="@+id/rbFemale"
+        android:layout_toStartOf="@+id/rbFemale" />
+
+    <RadioButton android:id="@+id/rbMale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Male"
+        android:onClick="onRadioButtonClicked"
+        android:checked="true"
+        android:layout_alignBaseline="@+id/rbFemale"
+        android:layout_alignBottom="@+id/rbFemale"
+        android:layout_alignLeft="@+id/etDOB"
+        android:layout_alignStart="@+id/etDOB" />
+
+    <RadioButton android:id="@+id/rbFemale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Female"
+        android:onClick="onRadioButtonClicked"
+        android:layout_alignBottom="@+id/radioGroup"
+        android:layout_alignRight="@+id/etDOB"
+        android:layout_alignEnd="@+id/etDOB" />
+
+
+</RelativeLayout>
