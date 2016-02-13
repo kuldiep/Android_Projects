@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="300dp">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingBottom="300dp"
+
+    tools:context="org.code_freak.com.bunch_of_app.Activity_Navigator">
+
+    <Button
+        android:onClick="Open_Activity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:id="@+id/btnCalc"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:onClick="Open_Activity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Greet User"
+        android:id="@+id/btnGreet"
+        android:layout_below="@+id/btnCalc"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:onClick="Open_Activity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="WhatsApp"
+        android:id="@+id/btnWhatsApp"
+        android:layout_below="@+id/btnGreet"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:onClick="Open_Activity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Camera"
+        android:id="@+id/btnCamera"
+        android:layout_below="@+id/btnWhatsApp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:onClick="Open_Activity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Music"
+        android:id="@+id/btnMusic"
+        android:layout_below="@+id/btnCamera"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:onClick="Open_Activity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Browser"
+        android:id="@+id/btnBrowser"
+        android:layout_below="@+id/btnMusic"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:onClick="Open_Activity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:id="@+id/btnRegister"
+        android:layout_below="@+id/btnBrowser"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:onClick="Open_Activity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:id="@+id/btnCall"
+        android:layout_below="@+id/btnRegister"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:onClick="Open_Activity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialer"
+        android:id="@+id/btnDial"
+        android:layout_below="@+id/btnCall"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:onClick="Open_Activity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Felight News"
+        android:id="@+id/btnFelight"
+        android:layout_below="@+id/btnDial"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:onClick="Open_Activity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Google News"
+        android:id="@+id/btnGoogle"
+        android:layout_below="@+id/btnFelight"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:onClick="Open_Activity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Algorithm Benchmarking"
+        android:id="@+id/btnAlgoBench"
+        android:layout_below="@+id/btnGoogle"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:onClick="Open_Activity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Get_Image"
+        android:id="@+id/btnGetImage"
+        android:layout_below="@+id/btnAlgoBench"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:onClick="Open_Activity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Get_Contact"
+        android:id="@+id/btnGetContact"
+        android:layout_below="@+id/btnGetImage"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:onClick="Open_Activity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Customized Browser"
+        android:id="@+id/btnCostomBrowser"
+        android:layout_below="@+id/btnGetContact"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:onClick="Open_Activity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="List View Color"
+        android:id="@+id/btnListColor"
+        android:layout_below="@+id/btnCostomBrowser"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:onClick="Open_Activity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Sensor Demo"
+        android:id="@+id/btnSensorDemo"
+        android:layout_below="@+id/btnListColor"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:onClick="Open_Activity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Sensor List"
+        android:id="@+id/btnSensorList"
+        android:layout_below="@+id/btnSensorDemo"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>
+</ScrollView>
