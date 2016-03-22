@@ -1,0 +1,20 @@
+[
+	{
+		name: "Atif Aslam",
+		song: "Rang Sharbato ka",
+		duration: "2 min",
+		
+	},
+	{
+		name: "Arijit Sing",
+		song: "Tumhi ho",
+		duration: "3 min",
+		
+	},
+	{
+		name: "Justin Bieber",
+		song: "Baby",
+		duration: "5 min",
+		
+	}
+]
