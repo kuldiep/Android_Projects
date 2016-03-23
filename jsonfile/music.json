@@ -1,0 +1,20 @@
+{
+    "SongInfo": [
+        {
+                "songname": "Tum Hi Ho",
+                "artistname": "Arjith",
+                "duration": "4min",
+                
+        },
+        {
+                "songname": "Lungi Dance",
+                "artistname": "Honey Singh",
+                "duration": "5min",
+                
+        },
+        .
+        .
+        .
+        .
+  ]
+}
