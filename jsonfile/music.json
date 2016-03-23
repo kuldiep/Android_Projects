@@ -3,18 +3,15 @@
         {
                 "songname": "Tum Hi Ho",
                 "artistname": "Arjith",
-                "duration": "4min",
+                "duration": "4min"
                 
         },
         {
                 "songname": "Lungi Dance",
                 "artistname": "Honey Singh",
-                "duration": "5min",
+                "duration": "5min"
                 
-        },
-        .
-        .
-        .
-        .
+        }
+       
   ]
 }
