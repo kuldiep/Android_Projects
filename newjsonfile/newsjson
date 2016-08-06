@@ -1,0 +1,30 @@
+{
+	"newsItem0": {
+		"title": "Best Wes Anderson Slasher Movie Look Like?",
+		"text0": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut congue turpis. Vivamus eleifend, urna eget accumsan faucibus, metus ex mollis lorem, vitae molestie augue augue eu diam. Quisque lobortis sed turpis at accumsan. Nullam congue ornare nibh ac efficitur. Donec sagittis nunc vitae ipsum sodales volutpat. In hac habitasse platea dictumst. Aenean luctus urna diam. Mauris suscipit vestibulum enim at maximus. Duis sagittis orci a sapien semper venenatis.",
+		"text1": "Phasellus id lobortis ex, et suscipit eros. Aenean fringilla leo interdum tellus ultricies sagittis. In tristique sapien non erat eleifend, nec rutrum tellus volutpat. In massa tortor, gravida sed nisi eu, gravida laoreet quam. Quisque nec placerat nisi. Nulla sagittis, sapien ac sollicitudin bibendum, odio ex porta felis, nec convallis orci turpis eu tortor. Sed feugiat metus vel lorem auctor pellentesque. Nulla mollis diam varius orci tristique, eu tincidunt erat vulputate. Pellentesque magna nunc, pellentesque eget mattis vel, fermentum ac mauris. Curabitur vel volutpat erat, facilisis pharetra mauris. Maecenas quam metus, viverra lobortis arcu a, vulputate lobortis urna.",
+		"image0": "http://lorempixel.com/g/400/200/",
+		"image1": "http://lorempixel.com/g/400/200/"
+	},
+	"newsItem1": {
+		"title": "10 TV Shows Spoiled on Twitter, So That's Something, Right?",
+		"text0": "Pellentesque tempor nulla eros, sed mattis lorem tristique id. Nam vulputate eu enim a efficitur. Vivamus euismod viverra velit at lacinia. Ut vitae metus nec orci tempor varius sed eu erat. Sed finibus metus id orci mollis, id blandit ligula luctus. Donec mollis posuere nisl, ut finibus felis accumsan in. Curabitur tempus lobortis tellus at sollicitudin. Etiam eget est mi. Cras porttitor rhoncus lacus, maximus malesuada lectus suscipit nec. Morbi efficitur enim et nisi vulputate, sit amet vulputate purus varius. Sed congue elit ac mauris sodales tincidunt.",
+		"text1": "Proin ullamcorper vestibulum velit, vel ullamcorper turpis. In facilisis felis orci. Suspendisse porta purus nec enim rutrum, nec egestas diam interdum. Nullam tempus rutrum tortor. Nulla a justo auctor, auctor nisl ut, varius nulla. Sed cursus mauris ac quam maximus volutpat. Ut ex augue, consectetur ac ligula a, convallis porttitor risus. Cras semper lorem condimentum libero sollicitudin blandit. Cras in ex non eros vehicula faucibus ac non diam.",
+		"image0": "http://lorempixel.com/g/400/200/",
+		"image1": "http://lorempixel.com/g/400/200/"
+	},
+	"newsItem2": {
+		"title": "Newswire: Fear Fear the Walking Dead' Teaser Hints at Zombie Origins",
+		"text0": "Vivamus pulvinar risus magna, eu venenatis dolor facilisis et. Donec non posuere nibh. Duis sit amet felis nec felis tempus vestibulum vel et nibh. Sed at est tortor. Pellentesque enim odio, condimentum a ultrices sed, ullamcorper id neque. Proin nec neque varius, dictum leo eu, pretium libero. Ut vehicula, lorem eu volutpat iaculis, nisi magna tristique diam, sit amet dictum elit massa vitae libero. Fusce sit amet dolor et risus vehicula varius sed id ex.",
+		"text1": "Nunc sed felis ac nisi viverra venenatis. Proin non ante auctor, eleifend ipsum vitae, accumsan leo. Nam varius lorem quis facilisis molestie. Quisque dui tortor, finibus ac pretium fringilla, hendrerit in eros. Aenean tincidunt hendrerit lectus, quis volutpat sem suscipit at. Donec sagittis rhoncus eleifend. Nulla ultrices semper massa sed vulputate. Maecenas mollis nisi vitae nisi condimentum faucibus. Fusce nec enim ut ex rhoncus tristique. Nam nulla metus, tempus vitae est nec, dictum elementum turpis. Praesent ullamcorper ullamcorper arcu, a imperdiet orci pharetra eu. Ut fermentum finibus tortor, a pellentesque ante. Sed aliquam quam nec tellus venenatis, eget auctor erat placerat. Integer mi orci, suscipit in sem vel, tempus ultrices odio. Duis eu nunc eget est semper fermentum. In hac habitasse platea dictumst.",
+		"image0": "http://lorempixel.com/g/400/200/",
+		"image1": "http://lorempixel.com/g/400/200/"
+	},
+	"newsItem3": {
+		"title": "5 Soldiers Whose Horrific Injuries Only Made Them Angry",
+		"text0": "Nulla id pellentesque mauris. Integer fringilla finibus nibh eu euismod. Praesent scelerisque quis lorem non ultrices. Phasellus tempor tincidunt sagittis. Proin eget est consectetur, rhoncus dui vel, dapibus erat. Donec in euismod felis. Maecenas eget arcu nulla. Aenean pellentesque, dolor ac ultrices dictum, nulla ante consectetur sapien, eget elementum est justo at ligula. Praesent at maximus elit, non accumsan nibh.",
+		"text1": "Quisque consectetur auctor egestas. Pellentesque in auctor nibh. Donec sed urna id tellus maximus facilisis at vel metus. Morbi tempor pulvinar elit imperdiet maximus. Curabitur nulla augue, porta sit amet malesuada semper, pulvinar non augue. Nam vel est eu leo mattis luctus. Maecenas vulputate sit amet lorem in bibendum. Vivamus ac velit tristique, imperdiet ipsum a, mollis elit. Proin blandit nulla quis nulla interdum suscipit. Integer at ipsum eu velit vulputate fringilla. Donec vel commodo tortor. In quis massa at nisi pharetra aliquam. Aenean euismod ex nibh, a ornare justo tincidunt interdum. Sed velit orci, iaculis tristique erat a, tristique egestas ex. Morbi tincidunt porta nunc, ac convallis diam mollis ac.",
+		"image0": "http://lorempixel.com/g/400/200/",
+		"image1": "http://lorempixel.com/g/400/200/"
+	}
+}
